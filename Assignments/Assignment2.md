@@ -16,3 +16,13 @@
 ### Q3 - What is parcel-cache?
 
 #### When we run npx parcel index.html, then this cache file is created when it store the previous changes and compares the recent changes and significantly reduces the build time and provide faster builds. Basically in this folder all the cached files are present.
+
+Two types of exports and Import
+
+1. export default [component name] -> default export
+
+import Component from "../../../../../../"
+
+2. export const URL = "http:// -> Named export
+
+import {URL} from "../../../../../
