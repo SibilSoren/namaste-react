@@ -26,3 +26,5 @@ import Component from "../../../../../../"
 2. export const URL = "http:// -> Named export
 
 import {URL} from "../../../../../
+
+#### When ever a state variable changes react will rerender the component.
