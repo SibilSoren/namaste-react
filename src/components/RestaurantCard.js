@@ -13,10 +13,10 @@ const RestaurantCard = (props) => {
         <h4>{props.restaurantAddress}</h4>
       </div>
       <div className="restaurantRating">
-        <h4>{props.restaurantRating}</h4>
+        <h4>{props.restaurantRating} ⭐️</h4>
       </div>
       <div className="deliveryTime">
-        <h4>{props.deliveryTime}</h4>
+        <h4>{props.deliveryTime} mins</h4>
       </div>
     </div>
   );
